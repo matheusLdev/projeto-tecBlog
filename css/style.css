@@ -1,0 +1,117 @@
+/* Limpar formatação padrão */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+header {
+   background-color: #f7b600;
+   text-align: center;
+   padding: 30px;
+}
+
+#area-logo h1{
+    color: #4e4e4e; 
+    font-size: 2.5em;
+}
+
+.branco{
+    color: white; 
+}
+
+#area-logo, #area-menu {
+    padding: 10px;  
+}
+
+/* Formatação do menu */
+
+#area-menu a{
+    padding: 10px;
+}
+#area-menu a:link, #area-menu a:visited {
+    color: white
+}
+#area-menu a:hover {
+    background-color: white;
+    color:#f7b600;
+}
+
+/* Formatações em geral */
+
+#conteudo {
+    width: 1024px;
+    margin: 5px auto; 
+}
+
+.conteudo-principal {
+    background: white;
+    width: 650px;
+    float: left;
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.conteudo-principal h2 {
+    color: #f7b600;
+}
+
+.conteudo-principal img {
+    padding-top: 20px;
+}
+
+.conteudo-principal a:link, .conteudo-principal a:visited {
+    color: #f7b600;
+}
+.conteudo-principal a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-lateral{
+    background: white;
+    float: right;
+    width: 300px;
+    font-weight: bold;
+    margin: 5px auto;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.conteudo-lateral h2{
+    color: #4e4e4e;
+    background-color: lightgray;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.conteudo-lateral a, .conteudo-lateral p{
+    padding-left: 2px;
+}
+
+.conteudo-lateral a:link, .conteudo-lateral a:visited  {
+    color: #f7b600;
+}
+
+.conteudo-lateral a:hover {
+    text-decoration: underline;
+}
+
+#clear {
+    clear: both;
+}
+
+footer{
+    background: lightgray;
+    text-align: center;
+    width: 965px;
+    margin: 20px auto;
+    padding: 15px 30px;
+}
